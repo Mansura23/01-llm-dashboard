@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Dashboard</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+    <h1>LLM Dashboard</h1>
+  </header>
+
+  <!-- NAVIGATION -->
+
+  <nav>
+    <ul>
+      <li><a href="#what-is-llm">What is an LLM?</a></li>
+      <li><a href="#what-is-token">What is a Token?</a></li>
+      <li><a href="#comparison">LLM Comparison</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+
+  <main>
+
+    <!-- SECTION 1 -->
+
+    <section id="what-is-llm">
+
+      <h2>What is an LLM?</h2>
+
+      <p>
+        LLM stands for Large Language Model. It is a type of artificial intelligence
+        trained on huge amounts of text data to understand and generate human language.
+      </p>
+
+      <p>
+        LLMs work by predicting the next token in a sequence of text. During training,
+        the model learns patterns, grammar, facts, and relationships between words from
+        books, websites, articles, and many other datasets.
+      </p>
+
+      <p>
+        Some popular examples of LLMs are GPT-4o by OpenAI, Claude 3.5 Sonnet by Anthropic,
+        Gemini by Google, and Llama by Meta.
+      </p>
+
+    </section>
+
+    <!-- SECTION 2 -->
+
+    <section id="what-is-token">
+
+      <h2>What is a Token?</h2>
+
+      <p>
+        A token is a small chunk of text used by language models. Tokens are usually
+        around 3-4 characters or about 3/4 of a word in English.
+      </p>
+
+      <p>
+        Tokens matter because they are used to measure context window size and API pricing.
+        The more tokens a request uses, the more expensive it becomes.
+      </p>
+
+      <p>
+        Example: The sentence "Hello, world!" may be split into tokens like:
+        "Hello", ",", "world", "!".
+      </p>
+
+      <p>
+        English usually consumes fewer tokens compared to Azerbaijani because English
+        words are often shorter and more common in training datasets. Azerbaijani words
+        may split into more tokens due to suffixes and language structure.
+      </p>
+
+    </section>
+
+    <!-- SECTION 3 -->
+
+    <section id="comparison">
+
+      <h2>LLM Comparison</h2>
+
+      <table border="1">
+
+        <caption>
+          Comparison of Popular Large Language Models
+        </caption>
+
+        <thead>
+
+          <tr>
+            <th>Model</th>
+            <th>Provider</th>
+            <th>Context Window</th>
+            <th>Input Price (per 1M tokens)</th>
+            <th>Output Price (per 1M tokens)</th>
+            <th>Reasoning</th>
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>GPT-4o</td>
+            <td>OpenAI</td>
+            <td>128K</td>
+            <td>$5.00</td>
+            <td>$15.00</td>
+            <td>✓</td>
+          </tr>
+
+          <tr>
+            <td>Claude 3.5 Sonnet</td>
+            <td>Anthropic</td>
+            <td>200K</td>
+            <td>$3.00</td>
+            <td>$15.00</td>
+            <td>✓</td>
+          </tr>
+
+          <tr>
+            <td>Gemini 1.5 Pro</td>
+            <td>Google</td>
+            <td>1M</td>
+            <td>$3.50</td>
+            <td>$10.50</td>
+            <td>✓</td>
+          </tr>
+
+          <tr>
+            <td>Llama 3 70B</td>
+            <td>Meta</td>
+            <td>128K</td>
+            <td>$0.90</td>
+            <td>$0.90</td>
+            <td>✗</td>
+          </tr>
+
+          <tr>
+            <td>Mistral Large</td>
+            <td>Mistral AI</td>
+            <td>128K</td>
+            <td>$4.00</td>
+            <td>$12.00</td>
+            <td>✓</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      Sources used:
+    </p>
+
+    <ul>
+      <li>
+        <a href="https://openai.com" target="_blank">
+          OpenAI
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.anthropic.com" target="_blank">
+          Anthropic
+        </a>
+      </li>
+
+      <li>
+        <a href="https://ai.google.dev" target="_blank">
+          Google AI
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.llama.com" target="_blank">
+          Meta Llama
+        </a>
+      </li>
+
+      <li>
+        <a href="https://mistral.ai" target="_blank">
+          Mistral AI
+        </a>
+      </li>
+    </ul>
+
+  </footer>
+
+</body>
+
+</html>
